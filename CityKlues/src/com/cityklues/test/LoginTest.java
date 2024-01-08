@@ -12,9 +12,6 @@ import org.testng.annotations.Test;
 import com.cityklues.pages.LoginPage;
 
 public class LoginTest {
-	
-	
-
 
 	LoginPage loginPage;
 
@@ -32,9 +29,9 @@ public class LoginTest {
 		driver.manage().deleteAllCookies();
 	}
 
-	@Test
+	@Test(groups = "", testName = "", priority = 0, description = "")
 	public void login() {
-		
+
 	}
 
 }
